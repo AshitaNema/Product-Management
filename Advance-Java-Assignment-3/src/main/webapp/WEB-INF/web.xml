@@ -1,0 +1,81 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.training.Advance_Java_Assignment_3.controller.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddProduct</servlet-name>
+  	<display-name>AddProduct</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.training.Advance_Java_Assignment_3.controller.AddProduct</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EditProduct</servlet-name>
+  	<display-name>EditProduct</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.training.Advance_Java_Assignment_3.controller.EditProduct</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SaveEditedProduct</servlet-name>
+  	<display-name>SaveEditedProduct</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.training.Advance_Java_Assignment_3.controller.SaveEditedProduct</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.training.Advance_Java_Assignment_3.controller.Logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteProduct</servlet-name>
+  	<display-name>DeleteProduct</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.training.Advance_Java_Assignment_3.controller.DeleteProduct</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>WelcomeServ</servlet-name>
+  	<display-name>WelcomeServ</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.training.Advance_Java_Assignment_3.controller.WelcomeServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddProduct</servlet-name>
+  	<url-pattern>/addProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EditProduct</servlet-name>
+  	<url-pattern>/editProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SaveEditedProduct</servlet-name>
+  	<url-pattern>/saveEditedProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteProduct</servlet-name>
+  	<url-pattern>/deleteProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>WelcomeServ</servlet-name>
+  	<url-pattern>/welcome</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
